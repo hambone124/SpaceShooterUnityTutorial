@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour {
 
     private Rigidbody rg;
-    public float speed = 5.0f;
+    public float speed;
 
     private void Start()
     {
